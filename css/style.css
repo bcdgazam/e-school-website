@@ -60,3 +60,47 @@ body {
     font-weight: 400;
     line-height: 36px;
 }
+
+.card img {
+    width: 66px;
+    height: 85px;
+}
+
+.card-items {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: #413960;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card-text {
+    color: #585859;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-items img {
+    margin-bottom: 10px;
+}
+
+.card {
+    border-radius: 10px;
+    background: #F8FFFB;
+    border: none;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+}
