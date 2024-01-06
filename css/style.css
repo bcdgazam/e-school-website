@@ -4,6 +4,14 @@ body {
 
 .hero-area {
     background-color: #F0FFF0;
+}
+
+.hero-area, .categories-area {
+    margin-bottom: 42px;
+}
+
+.courses-area {
+    margin-top: 100px;
     margin-bottom: 42px;
 }
 
@@ -61,7 +69,7 @@ body {
     line-height: 36px;
 }
 
-.card img {
+.card-items img {
     width: 66px;
     height: 85px;
 }
@@ -92,15 +100,63 @@ body {
     margin-bottom: 10px;
 }
 
-.card {
+.card-background {
     border-radius: 10px;
     background: #F8FFFB;
     border: none;
     transition: box-shadow 0.3s ease-in-out;
 }
 
-.card:hover {
+.card-background:hover {
     border-radius: 10px;
     background: #FFF;
     box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+}
+
+.course-main-image {
+    padding: 16px 16px 0px 16px;
+}
+
+.courses-heading h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.buy-course-button {
+    display: inline-flex;
+    padding: 8px 28px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 33px;
+    background: #21B573;
+    border: none;
+    color: #FFF;
+}
+
+
+.course-icons img {
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-right: 6px;
+}
+
+.course-icons p {
+    color: #585859;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card-footer {
+    border-top: none;
+    margin-top: 14px;
+}
+
+.course-card-background {
+    border: none;
+    border-radius: 18px;
+    background: #FFF;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
 }
