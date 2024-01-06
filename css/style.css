@@ -10,7 +10,7 @@ body {
     margin-bottom: 42px;
 }
 
-.courses-area {
+.courses-area, .testimonials-area {
     margin-top: 100px;
     margin-bottom: 42px;
 }
@@ -120,6 +120,11 @@ body {
 .courses-heading h2 {
     text-align: center;
     margin-bottom: 50px;
+    color: #413960;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .buy-course-button {
@@ -159,4 +164,31 @@ body {
     border-radius: 18px;
     background: #FFF;
     box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+
+.testimonials-heading h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.testimonials-content img {
+    width: 120px;
+    height: auto;
+    margin-right: 50px;
+}
+
+.testimonials-content p {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
