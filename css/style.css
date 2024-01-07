@@ -36,64 +36,8 @@ body {
     border: none;
 }
 
-.hero-content-container {
-    padding: 63px 0px 63px 0px;
-}
-
 .heading-top {
     color: #FD511A;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.hero-content h1 {
-    color: #000;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 70px;
-}
-
-.any-schedule {
-    color: #21B573;
-    font-family: Poppins;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 70px;
-}
-
-.heading-bottom {
-    color: #6C6B6B;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 36px;
-}
-
-.card-items img {
-    width: 66px;
-    height: 85px;
-}
-
-.card-items {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-
-.card-title {
-    color: #413960;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-.card-text {
-    color: #585859;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -131,31 +75,11 @@ body {
     line-height: normal;
 }
 
-.buy-course-button {
-    display: inline-flex;
-    padding: 8px 28px;
-    align-items: center;
-    gap: 10px;
-    border-radius: 33px;
-    background: #21B573;
-    border: none;
-    color: #FFF;
-}
-
-
 .course-icons img {
     width: 24px;
     height: 24px;
     float: left;
     margin-right: 6px;
-}
-
-.course-icons p {
-    color: #585859;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
 }
 
 .card-footer {
@@ -199,7 +123,10 @@ body {
 
 .widgets-area {
     background: #282531;
-    height: 369px;
+}
+
+.widgets-column {
+    margin-top: 50px;
 }
 
 .widgets-text {
