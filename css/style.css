@@ -126,7 +126,8 @@ body {
 }
 
 .widgets-column {
-    margin-top: 50px;
+    padding-top: 50px;
+    align-items: center;
 }
 
 .widgets-text {
