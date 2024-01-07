@@ -15,6 +15,10 @@ body {
     margin-bottom: 42px;
 }
 
+.widgets-area {
+    margin-top: 100px;
+}
+
 .navbar-collapse {
     justify-content: end;
 }
@@ -191,4 +195,43 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+}
+
+.widgets-area {
+    background: #282531;
+    height: 369px;
+}
+
+.widgets-text {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.list-heading h3 {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.widgets-list ul li a {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+footer p {
+    color: #CDCDCD;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 76px;
+    text-align: center;
 }
